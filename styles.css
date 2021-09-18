@@ -1,14 +1,282 @@
 body{
+    margin: 0;
     background-color: #ffffff;
 }
-h1{
-    color: rgb(255, 30, 0);
+
+
+.top-container{
+    background-color: black;
+    margin: 20px 0px;
+    padding: 20px;
+    background-image: url("pics/fadediron.jpg");
+    background-position:right;
+    background-repeat:no-repeat;
+    height: 550px;
+    background-size:contain;
+    position: relative;
+    border-radius: 50px;
 }
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-top-color: black;
-    height: 0px;
-    width: 60%;
-    border-width: 6px;
+
+
+.title-text{
+    
+    border-radius: 300px;
+    margin: 0px;
+    padding: 10px;
+}
+.title-text{
+    color:#f8f8f8 ;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(140, 0, 255, 0.842), 0 0 5px darkblue;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 4rem;
+    margin: 0px;
+}
+.title-text, .title-text span {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.title-text span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+
+.cssanimation{
+    color:#f8f8f8 ;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(140, 0, 255, 0.842), 0 0 5px darkblue;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 4rem;
+    margin: 0px;
+}
+.cssanimation, .cssanimation span {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+
+.Subhro-p{
+    font-family: 'Kaisei Decol', serif;
+    font-size: 2rem;
+    line-height: 30px;
+    color:#f8f8f8 ;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 255, 13), 0 0 5px darkblue;
+}
+
+.Subhro-p, .Subhro-p span {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.Subhro-p span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+
+.paragraph1{
+    font-family: 'Satisfy', cursive;
+    font-size: 4rem;
+    color: azure;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(229, 255, 0), 0 0 5px darkblue;
+}
+
+.paragraph1, .paragraph1 span {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.paragraph1 span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+
+
+
+
+
+
+
+.middle-container{
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+.profile{
+    background-color: #F9A620;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding-top: 50px;
+	padding-bottom: 30px;
+}.Hello{
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin: 25px;
+}
+.intro{
+    font-family: 'Lobster Two', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+}
+.subhro-image{
+    display: block;
+    position: relative;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+
+
+
+.horizontal-line{
+    border:dotted rgb(0, 0, 0) 6px;
+    border-bottom: none;
+    width: 25%;
+    margin: 10px auto;
+}
+
+
+
+
+.skills{
+    background-color: #ffffff;
+}
+
+.Skill-row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #462AB5;
+    border-radius: 50px;
+    margin: 40px auto 40px auto;
+}
+
+.Myskils{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+.code-img{
+    display: block;
+    position: relative;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.Designs{
+    font-size: 2.3rem;
+    text-align: center;
+    color: white;
+}
+
+.paragraph{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Handlee', cursive;
+}
+
+
+
+
+
+.skill-row{
+    background-color: #462AB5;
+    border-radius: 50px;
+}
+.chilli-img{
+    padding-top: 29px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    height: 200px;
+}.SideHustle{
+    color: white;
+    font-family: 'Bona Nova', serif;
+    font-size: 2.3rem;
+    text-align: center;
+}
+.para{
+    color: white;
+    font-family: 'Handlee', cursive;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+
+
+
+.contact-me{
+    background-color: #01E610;
+    padding-top: 20px;
+}
+.Getintouch{
+    color: white;
+    font-family: 'Bona Nova', serif;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+
+
+
+
+.bottom-container{
+    background-color: #E31422;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+.contactme{
+    text-align: center;
+    color: white;
+    font-family: 'Bona Nova', serif;
+    font-size: 2rem;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    font-family: 'Bona Nova', serif;
 }
