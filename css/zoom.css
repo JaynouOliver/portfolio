@@ -11,3 +11,21 @@
   /* Safari 3-8 */
   transform: scale(1.5);
 }
+
+.qualities{
+  padding: 5px;
+  transition: transform .2s;
+  margin: auto;
+}
+.qualities:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.borderofdiv{
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color:rgb(72, 226, 105)
+}
